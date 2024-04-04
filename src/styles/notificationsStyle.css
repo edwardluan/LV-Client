@@ -1,0 +1,15 @@
+.notifications {
+    width: 350px;
+}
+.notifications .title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.notifications .icon_notify{
+    text-align: center;
+    color: #9e9d9d;
+    font-size: 1rem;
+    padding: 25px 0;
+}

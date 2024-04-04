@@ -1,0 +1,48 @@
+.login_page{
+    width: 100%;
+    min-height: 100vh;
+    background: #fdfdfd;
+    position: relative;
+}
+.login_page form {
+    max-width: 400px;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 0 25px 25px 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login_page form .logo_login {
+    max-width: 350px;
+}
+
+.login_page form .pass {
+    position: relative;
+}
+
+.login_page form .form-label {
+    color: #8f8f8f;
+    font-size: 14px;
+}
+
+.login_page .login_btn {
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+    background: var(--bg-color);
+    border: 1px solid var(--light-green);
+    border-radius: 10px;
+}
+
+.login_page form .pass small {
+    position:absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    opacity: 0.5;
+}
+

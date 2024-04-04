@@ -1,0 +1,101 @@
+.diary_thumb {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    justify-content: center;
+    grid-gap: 5px;
+    overflow: hidden;
+    margin: 15px 0;
+}
+
+.diary_thumb_display {
+    min-width: 150px;
+    height: 150px;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.diary_thumb_display img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.diary_thumb_display video {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.diary_thumb_display .diary_thumb_menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(31, 48, 35, 0.533);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+/* Diary id  */
+.diary_id {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+}
+.timeline small{
+    padding-left: 3px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.timeline .vertical-timeline-element-content {
+    background: var(--bg-color);
+    color: #000;
+    display: flex;
+    align-items: center,
+}
+.timeline .vertical-timeline-element-content-arrow {
+    border-right: 7px solid var(--bg-color);
+   
+}
+.timeline .vertical-timeline-element-icon {
+    background: var(--bg-color);
+    color: #979797;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vertical-timeline-element .content_timeline {
+    margin-left: 10px;
+}
+.timeline .vertical-timeline-element-content img {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+/* diary home */
+.diary_home {
+    border: 1px solid #ccc;
+    margin: 15px 0;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px){
+    .timeline .vertical-timeline-element-content {
+        display: grid;
+        grid-gap: 10px;
+    } 
+    .vertical-timeline-element .content_timeline {
+        margin-left: 0;
+    }
+  }

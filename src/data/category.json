@@ -1,0 +1,223 @@
+{
+    "category": [
+        {
+            "label": "Máy lạnh",
+            "icon": "ac_unit"
+        },
+        {
+            "label": "Máy giặt",
+            "icon": "water"
+        },
+        {
+            "label": "Tủ lạnh",
+            "icon": "kitchen"
+        },
+        {
+            "label": "Quạt",
+            "icon": "air"
+        },
+        {
+            "label": "Bàn ủi",
+            "icon": "iron"
+        },
+        {
+            "label": "Máy lọc không khí",
+            "icon": "warehouse"
+        },
+        {
+            "label": "Khác",
+            "icon": "more"
+        }
+    ],
+    "city": [
+        {
+            "name": "Bắc Giang"
+        },
+        {
+            "name": "Bắc Kạn"
+        },
+        {
+            "name": "Cao Bằng"
+        },
+        {
+            "name": "Hà Giang"
+        },
+        {
+            "name": "Lạng Sơn"
+        },
+        {
+            "name": "Phú Thọ"
+        },
+        {
+            "name": "Quảng Ninh"
+        },
+        {
+            "name": "Thái Nguyên"
+        },
+        {
+            "name": "Tuyên Quang"
+        },
+        {
+            "name": "Lào Cai"
+        },
+        {
+            "name": "Yên Bái"
+        },
+        {
+            "name": "Điện Biên"
+        },
+        {
+            "name": "Hòa Bình"
+        },
+        {
+            "name": "Lai Châu"
+        },
+        {
+            "name": "Sơn La"
+        },
+        {
+            "name": "Bắc Ninh"
+        },
+        {
+            "name": "Hà Nam"
+        },
+        {
+            "name": "Hải Dương"
+        },
+        {
+            "name": "Hưng Yên"
+        },
+        {
+            "name": "Nam Định"
+        },
+        {
+            "name": "Ninh Bình"
+        },
+        {
+            "name": "Thái Bình"
+        },
+        {
+            "name": "Vĩnh Phúc"
+        },
+        {
+            "name": "Hà Nội"
+        },
+        {
+            "name": "Hải Phòng"
+        },
+        {
+            "name": "Hà Tĩnh"
+        },
+        {
+            "name": "Nghệ An"
+        },
+        {
+            "name": "Quảng Bình"
+        },
+        {
+            "name": "Quảng Trị"
+        },
+        {
+            "name": "Thanh Hóa"
+        },
+        {
+            "name": "Thừa Thiên-Huế"
+        },
+        {
+            "name": "Đắk Lắk"
+        },
+        {
+            "name": "Đắk Nông"
+        },
+        {
+            "name": "Gia Lai"
+        },
+        {
+            "name": "Kon Tum"
+        },
+        {
+            "name": "Lâm Đồng"
+        },
+        {
+            "name": "Bình Định"
+        },
+        {
+            "name": "Bình Thuận"
+        },
+        {
+            "name": "Khánh Hòa"
+        },
+        {
+            "name": "Ninh Thuận"
+        },
+        {
+            "name": "Phú Yên"
+        },
+        {
+            "name": "Quảng Nam"
+        },
+        {
+            "name": "Quảng Ngãi"
+        },
+        {
+            "name": "Đà Nẵng"
+        },
+        {
+            "name": "Bà Rịa-Vũng Tàu"
+        },
+        {
+            "name": "Bình Dương"
+        },
+        {
+            "name": "Bình Phước"
+        },
+        {
+            "name": "Đồng Nai"
+        },
+        {
+            "name": "Tây Ninh"
+        },
+        {
+            "name": "Hồ Chí Minh"
+        },
+        {
+            "name": "An Giang"
+        },
+        {
+            "name": "Bạc Liêu"
+        },
+        {
+            "name": "Bến Tre"
+        },
+        {
+            "name": "Cà Mau"
+        },
+        {
+            "name": "Đồng Tháp"
+        },
+        {
+            "name": "Hậu Giang"
+        },
+        {
+            "name": "Kiên Giang"
+        },
+        {
+            "name": "Long An"
+        },
+        {
+            "name": "Sóc Trăng"
+        },
+        {
+            "name": "Tiền Giang"
+        },
+        {
+            "name": "Trà Vinh"
+        },
+        {
+            "name": "Vĩnh Long"
+        },
+        {
+            "name": "Cần Thơ"
+        }
+    ]
+}

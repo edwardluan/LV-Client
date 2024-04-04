@@ -1,0 +1,99 @@
+/* Status style  */
+.status {
+    background: #fff;
+    box-shadow: 0 0 10px #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.status .status_button{
+    background: #f3f4f6;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: #555;
+    padding: 0 10px;
+    text-align: left;
+    margin: 0 10px;
+    font-size: 1rem;
+}
+
+.status .status_button:hover {
+    border: 1px solid #007bff; /* Màu xanh dương */
+}
+
+/* Post style  */
+/* Card header  */
+.posts .card_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 15px 25px;
+}
+.posts .card_header .dropdown-menu {
+    position: absolute;
+    left: inherit !important;
+    right: 0;
+}
+.posts .card_header .dropdown-item {
+    display: flex;
+    margin: 5px 0;
+}
+/* Card body  */
+
+.posts .card_body .content {
+    padding: 0 25px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+} 
+.posts .card_body .content .readMore {
+    cursor: pointer;
+    color: #5e5e5e;
+}
+
+.posts .card_body small {
+    padding-left: 25px;
+    font-style: italic;
+    font-size: 12px;
+    color: #adadad;
+}
+
+.carousel-inner {
+    height: 400px;
+}
+
+.carousel-inner video,
+.carousel-inner img{
+    height: 400px;
+    object-fit: contain;
+}
+
+.posts .card_body .content span {
+    white-space: pre-line;
+}
+/* Card footer */
+.posts .card_icon_menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.card_icon_menu span {
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+.card_footer .shareModal {
+    background: var(--bg-color);
+}
+
+.switch_post {
+    text-align: center;
+    font-weight: 600;
+    padding: 10px 0;
+    border: 1px solid var(--bg-color);
+    border-radius: 5px;
+    background: linear-gradient(0, var(--bg-color), #fff);
+}

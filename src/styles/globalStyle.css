@@ -1,0 +1,84 @@
+:root {
+  --light-color: #ffffff;
+  --dark-color: #000;
+  --light-green: #88c431;
+  --dark-green: #004225;
+  --main-color: #4bef76;
+  --bg-color: #dff3c1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#theme {
+  display: none;
+}
+
+#theme:checked ~ .App {
+  filter: invert(1);
+}
+
+#theme:checked ~ .App img {
+  filter: invert(1);
+}
+
+img {
+  object-fit: cover;
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--app-color);
+}
+
+.main {
+  /* max-width: 1500px; */
+  width: 100%;
+  margin: auto;
+}
+
+/* AUTH style */
+@import url("./authStyle.css");
+
+/* HEADER style */
+@import url("./headerStyle.css");
+
+/* AVATA style */
+@import url("./avatarStyle.css");
+
+/* PROFILE USER style  */
+@import url("./profileStyle.css");
+
+/* HOME style  */
+@import url("./homeStyle.css");
+
+/* STATUS MODAL style  */
+@import url("./statusModalStyle.css");
+
+/* COMMENT style  */
+@import url("./commentsStyle.css");
+
+/* POST Thumb  */
+@import url("./postThumbStyle.css");
+
+/* Message style */
+@import url("./messageStyle.css");
+
+/* Icons style */
+@import url("./iconsStyle.css");
+
+/* News style  */
+@import url("./newsStyle.css");
+
+/* Diary Thumb style  */
+@import url("./diaryThumbStyle.css");
+
+/* notifications style */
+@import url("./notificationsStyle.css");
+
+/* market style */
+@import url("./productStyle.css");

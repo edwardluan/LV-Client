@@ -1,0 +1,125 @@
+.categories_container{
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.market {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  justify-content: center;
+  grid-gap: 10px;
+  overflow: hidden;
+  margin: 15px 0;
+  padding: 0 10px;
+}
+.product_card {
+  min-width: 150px;
+  height: 350px;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+
+.product_card .btn_product {
+  position: absolute;
+  bottom: 30%;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.product_card .product_card_header:hover .btn_product {
+  opacity: 1;
+}
+
+.product_card .product_card_header img {
+  width: 100%;
+  height: 200px;
+  display: block;
+  object-fit: cover;
+  position: relative;
+}
+
+.product_card .product_card_body {
+  padding: 10px;
+}
+.product_card_body .product_card_title {
+  font-weight: bold;
+  padding: 5px 0;
+}
+.product_card_price {
+  font-weight: bold;
+  color: #d0021b;
+}
+.product_card_content span {
+  font-size: 12px;
+}
+
+.carousel_detail_product {
+  border: 1px solid #ccc;
+}
+.card_detail {
+  padding: 20px 10px;
+  width: 70%;
+  margin: 0 auto;
+}
+.card_detail .search_product {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.search_product form {
+  width: 70%;
+  padding-right: 10px;
+}
+.search_product .btn_post_product {
+  width: 30%;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: var(--bg-color);
+  font-weight: bold;
+}
+.contact_user {
+   width: 100%;
+   text-align: center;
+   padding: 10px;
+   margin-top: 20px;
+   border: 1px solid #ccc
+}
+
+.contact_user .contact_phone,
+.contact_user .contact_message{
+    padding: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.contact_user span, 
+.contact_user i {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+.attention_product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .card_detail {
+    width: 100%;
+  }
+}

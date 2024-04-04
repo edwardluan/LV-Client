@@ -1,0 +1,39 @@
+.comment_input{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.comment_input input {
+    background: var(--bg-color);
+    border: none;
+    outline: none;
+    flex: 1;
+    overflow: auto;
+    padding: 10px;
+}
+.comment_input .commentBtn {
+    border: none;
+    outline: none;
+    background: var(--bg-color);
+    font-weight: 600;
+    color: var(--dark-screen);
+    padding: 10px;
+}
+
+/* Comments */
+
+.comment_display {
+   padding: 10px 25px;
+}
+.comment_card .comment_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eee;
+    padding: 10px;
+    border-radius: 10px;
+}
+.comment_card .comment_content .readMode {
+    cursor: pointer;
+    color: #9b9b9b;
+}

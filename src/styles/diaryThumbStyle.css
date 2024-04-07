@@ -82,13 +82,31 @@
     max-width: 200px;
 }
 
-/* diary home */
 .diary_home {
     border: 1px solid #ccc;
-    margin: 15px 0;
-    padding: 25px;
+    margin: 15px auto; /* Căn giữa theo chiều ngang */
+    max-width: 600px; /* Đặt kích thước tối đa */
+    padding: 15px; /* Giảm padding */
     border-radius: 5px;
-}
+  }
+  
+  .diary_home .content {
+    margin-top: 10px; /* Khoảng cách giữa nội dung và phần header */
+  }
+  
+  .diary_home .content img {
+    max-width: 100%; /* Đảm bảo hình ảnh không vượt quá phần nội dung */
+  }
+  
+  .diary_home .text {
+    margin-top: 10px; /* Khoảng cách giữa hình ảnh và văn bản */
+  }
+  
+  .diary_home > div:last-child {
+    margin-top: 10px; /* Khoảng cách giữa văn bản và phần footer */
+    text-align: center; /* Căn giữa phần footer */
+  }
+  
 
 @media (max-width: 768px){
     .timeline .vertical-timeline-element-content {

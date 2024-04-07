@@ -1,0 +1,13 @@
+.home-container {
+    padding: 20px; /* Khoảng cách giữa nội dung và mép của trang */
+  }
+  
+  .switch-post-container {
+    text-align: center; /* Để căn giữa nội dung */
+  }
+  
+  .switch-post {
+    display: inline-block; /* Để nút chuyển đổi hiển thị trên cùng một dòng */
+    cursor: pointer; /* Để biến con trỏ thành dấu chấm hỏi khi di chuột vào nút */
+  }
+  

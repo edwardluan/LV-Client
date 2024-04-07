@@ -202,7 +202,7 @@ const StatusModal = () => {
               name="hashtag"
               value={hashtag}
               onChange={(e) => setHashtag(e.target.value)}
-              placeholder="#caytrong, #channuoi, ..."
+              placeholder="#maylanh, #cantho, ..."
             />
           </div>
           <div className="d-flex">

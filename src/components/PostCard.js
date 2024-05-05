@@ -6,7 +6,7 @@ import CardHeader from "./home/postCard/CardHeader";
 import CommentInput from "./home/CommentInput";
 import Comments from "./home/Comments";
 
-import "./PostCard.css"; // Import file CSS cho PostCard
+import "../styles/PostCard.css";
 
 const PostCard = ({ post }) => {
   return (

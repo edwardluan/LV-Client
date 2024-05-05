@@ -43,7 +43,7 @@ const ProductCard = ({ product }) => {
     const msg = {
       sender: auth.user._id,
       recipient: product.user._id,
-      text: "Tôi muốn biết thêm thông tin về sản phẩm: " + product.productName,
+      text: "Tôi muốn biết thêm thông tin về dịch vụ: " + product.productName,
       media: product.img,
       createdAt: new Date().toISOString(),
     };

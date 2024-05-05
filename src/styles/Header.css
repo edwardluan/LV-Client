@@ -1,0 +1,13 @@
+.logo-container {
+    display: flex; /* Sử dụng Flexbox để các phần tử con sắp xếp ngang */
+    align-items: center; /* Căn giữa các phần tử theo chiều dọc */
+  }
+  
+  .logo-container img {
+    margin-right: 10px; /* Điều chỉnh khoảng cách giữa hình ảnh và văn bản */
+  }
+  
+  .logo-container p {
+    margin: 0; /* Xóa margin mặc định của thẻ p */
+  }
+  
